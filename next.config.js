@@ -53,6 +53,15 @@ const securityHeaders = [
 ]
 
 module.exports = withBundleAnalyzer({
+  async redirects() {
+    return [
+      {
+        source: '/resources',
+        destination: 'https://adibhanna.notion.site/Resources-31372918b358468887d117beef6b365a',
+        permanent: true,
+      },
+    ]
+  },
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {
