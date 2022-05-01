@@ -1,8 +1,8 @@
 const siteMetadata = {
-  title: 'Dev Blog',
+  title: 'Adib Hanna - Coding Blog',
   author: 'Adib Hanna',
   headerTitle: 'Adib Hanna',
-  description: 'Programming Blog.',
+  description: 'Coding Blog.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://adibhanna.dev',
